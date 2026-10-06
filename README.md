@@ -1,5 +1,7 @@
 # SyncCore
 
+[![CI](https://github.com/EpicCopilot/SyncCore/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/EpicCopilot/SyncCore/actions/workflows/ci.yml)
+
 **SyncCore** is a Python/PySide6 desktop application that keeps a local SQLite representation of an AniList anime list synchronized with the upstream AniList GraphQL API.
 
 The project is intentionally built as a single maintainable application rather than a collection of services. Its engineering focus is reliable synchronization: authentication, extraction, normalization, reconciliation, idempotent persistence, transactional updates, background execution, testing, and observability.
